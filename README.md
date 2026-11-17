@@ -2,6 +2,14 @@
 
 A macOS menu bar app that shows your Mac's vital signs at a glance: CPU load, memory, network and disk throughput, and temperatures.
 
+<p align="center">
+  <img src="docs/popover.png" alt="Heartbeat menu bar popover" width="320">
+</p>
+
+![Heartbeat dashboard](docs/dashboard.png)
+
+*Screenshots are rendered from Xcode previews with sample data.*
+
 ## Features
 
 - **Menu bar status item** showing live CPU load and SoC temperature.
