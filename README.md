@@ -24,6 +24,14 @@ A macOS menu bar app that shows your Mac's vital signs at a glance: CPU load, me
 - **Adjustable refresh rate** from 0.5 to 5 seconds.
 - **Launch at login**, enabled on first run and toggleable from the popover.
 
+## Download
+
+1. Download `Heartbeat-1.0.zip` from the [latest release](https://github.com/aaronarich/heartbeat/releases/latest).
+2. Unzip it and move `Heartbeat.app` into your Applications folder.
+3. Open it. The app isn't notarized, so macOS will block the first launch. Go to System Settings, then Privacy & Security, and click **Open Anyway** next to the Heartbeat message.
+
+Heartbeat lives in the menu bar and has no Dock icon.
+
 ## Requirements
 
 - macOS 27.2 or later

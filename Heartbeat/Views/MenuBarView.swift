@@ -170,8 +170,11 @@ struct MeterRow: View {
     }
 }
 
+#if DEBUG
 #Preview("Menu bar popover") {
     MenuBarView()
         .environment(SystemMonitor(previewSnapshot: PreviewData.snapshot, info: PreviewData.info))
         .environment(LoginItemManager())
 }
+#endif
+
